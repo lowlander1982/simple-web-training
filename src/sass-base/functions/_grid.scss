@@ -1,0 +1,4 @@
+@mixin make-grid-child($columns:12) {
+  flex-basis: calc(100vw / #{$columns});
+  @content;
+}

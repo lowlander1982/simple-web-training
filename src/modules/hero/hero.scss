@@ -1,0 +1,12 @@
+@import "../../sass-base/functions/grid";
+
+.hero {
+  h1 {
+    @include make-grid-child(5) {
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+
+    font-size: 50px;
+  }
+}

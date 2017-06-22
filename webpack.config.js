@@ -31,7 +31,8 @@ var config = {
       {
         test: /\.json$/,
         loader: "json-loader"  //JSON loader
-      }
+      },
+      { test: /\.handlebars$/, loader: "handlebars-loader" }
     ]
   },
   //To run development server
